@@ -24,10 +24,6 @@ A work-in-progress decompilation of the New-Gen version of The Simpsons Game bas
 
 This repository does **not** contain any game assets or assembly whatsoever. An existing copy of the game is required.
 
-Supported versions:
-
-- `GAMEID`: Rev 0 (USA)
-
 Dependencies
 ============
 
@@ -76,20 +72,16 @@ Building
 - Clone the repository:
 
   ```sh
-  git clone https://github.com/my/repo.git
+  git clone https://github.com/SplaatSites/the-simpsons-game.git
   ```
 
-- Copy your game's disc image to `orig/GAMEID`.
-  - Supported formats: ISO (GCM), RVZ, WIA, WBFS, CISO, NFS, GCZ, TGC
-  - After the initial build, the disc image can be deleted to save space.
+- Copy your xex to `orig/45410809`.
 
 - Configure:
 
   ```sh
   python configure.py
   ```
-
-  To use a version other than `GAMEID` (USA), specify it with `--version`.
 
 - Build:
 
